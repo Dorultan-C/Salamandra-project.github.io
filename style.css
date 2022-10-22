@@ -1,7 +1,9 @@
 @font-face {
   font-family: "Booter - Zero Zero";
-  src: url("./font-family/Booter\ -\ Zero\ Zero.woff") format("woff"),
-       url("./font-family/Booter\ -\ Zero\ Zero.woff2") format("woff2");
+  src: url("./font-family/Booter - Zero Zero.woff") format("woff"),
+       url("./font-family/Booter - Zero Zero.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;     
 }
 
 * {
@@ -58,4 +60,10 @@ html body {
   margin: 0;
   font-size: 4em;
   font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: aliceblue;
+}
+
+.band-name-large {
+  font-size: 9em;
 }
