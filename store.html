@@ -7,87 +7,97 @@
 
   <title>Salamandra Projects | Store </title>
   <script src="https://kit.fontawesome.com/3bfb5ff53f.js" crossorigin="anonymous"></script>
-  <meta name="description" content="This is Salamandra project concert acros the UK">
+  <meta name="description" content="This is Salamandra project concert across the UK">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="main-header">
+    <nav class="main-nav nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="store.html">Store</a></li>
         <li><a href="about.html">ABOUT</a></li>
       </ul>
     </nav>
-    <hr>
-    <h1>Salamandra Project</h1>
+    
+    <h1 class="band-name band-name-large">Salamandra Project</h1>
   </header>
-  <section>
-    <h2>Music</h2>
-    <div>
-        <div>
-          <strong>Album 1</strong>
+  <section class="container content-section">
+    <h2 class="section-header" >Music</h2>
+    <div class="shop-items">
+    <div class="shop-item">
+        <span class="shop-item-title">Album 1</span>
+        <img class="shop-item-image"  
+             src="./Phottos/Salamandra.PNG" 
+             alt="album cover salamandra in nature">
+        <div class="shop-item-details">
+          <span class="shop-item-price">£31.99</span>
+          <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
         </div>
-          <img width="200px" src="./Phottos/Salamandra.PNG" alt="album cover slamandra in nature">
-        <div>
-          <span>£31.99</span>
-          <button role="button">ADD TO CART</button>
-        </div>
     </div>
-    <div>
-      <div>
-        <strong>Album 2</strong>
+
+    <div class="shop-item">
+      <span class="shop-item-title">Album 2</span>
+      <img class="shop-item-image" 
+           src="./Phottos/Salamandra-atlas.PNG" 
+           alt="album cover salamandra atlas">
+      <div class="shop-item-details">     
+          <span class="shop-item-price">£31.99</span>
+          <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
       </div>
-        <img width="200px" src="./Phottos/Salamandra-atlas.PNG" alt="album cover slamandra atlas">
-      <div>
-        <span>£31.99</span>
-        <button role="button">ADD TO CART</button>
+    </div>
+  
+    <div class="shop-item">
+      <span class="shop-item-title">Album 3</span>
+      <img class="shop-item-image" 
+           src="./Phottos/Green-salamandra.png" 
+           alt="album cover salamandra negative brown">
+      <div class="shop-item-details">
+        <span class="shop-item-price">£31.99</span>
+        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
       </div>
-  </div>
-  <div>
-    <div>
-      <strong>Album 3</strong>
     </div>
-      <img width="200px" src="./Phottos/Green-salamandra.png" alt="album cover slamandra negative brown">
-    <div>
-      <span>£31.99</span>
-      <button role="button">ADD TO CART</button>
+
+  <div class="shop-item">
+    <span class="shop-item-title">Album 4</span>
+    <img class="shop-item-image" 
+         src="./Phottos/Salamandra-open.PNG" 
+         alt="album cover salamandra dissection">
+    <div class="shop-item-details">
+      <span class="shop-item-price">£31.99</span>
+      <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
     </div>
-</div>
-<div>
-  <div>
-    <strong>Album 4</strong>
   </div>
-    <img width="200px" src="./Phottos/Salamandra-open.PNG" alt="album cover slamandra diesection">
-  <div>
-    <span>£31.99</span>
-    <button role="button">ADD TO CART</button>
   </div>
-</div>
   </section>
 
-  <section>
-    <h2>MERCH</h2>
-    <div>
-        <div>
-          <strong>T-Shirt</strong>
-        </div>
-          <img width="200px" src="./Phottos/T-shirt_salamandra.PNG" alt="t-shirt logo with salamandra negative">
-        <div>
-          <span>£31.99</span>
-          <button role="button">ADD TO CART</button>
+  <section class="container content-section">
+    <h2 class="section-header">MERCH</h2>
+  <div class="shop-items">
+    <div class="shop-item">
+        <span class="shop-item-title">T-Shirt</span>
+          <img class="shop-item-image" 
+               src="./Phottos/T-shirt_salamandra.PNG" 
+               alt="t-shirt logo with salamandra negative">
+        <div class="shop-item-details">
+          <span class="shop-item-price">£31.99</span>
+          <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
         </div>
     </div>
-    <div>
-      <div>
-        <strong>Mags</strong>
-      </div>
-        <img width="200px" src="./Phottos/Mags_salamandra.PNG" alt="mag logo with salamandra negative">
-      <div>
-        <span>£31.99</span>
-        <button role="button">ADD TO CART</button>
+
+    <div class="shop-item">
+        <span class="shop-item-title">Mags</span>
+        <img class="shop-item-image" 
+             src="./Phottos/Mags_salamandra.PNG" 
+             alt="mag logo with salamandra negative">
+      <div class="shop-item-details">
+        <span class="shop-item-price">£31.99</span>
+        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
       </div>
   </div>
+  </div>
   </section>
+
   <section>
     <h2>CART</h2>
     <div>
@@ -95,7 +105,7 @@
       &lt;&gt;
       <strong>PRICE</strong>
       &lt;&gt;
-      <strong>QUANITY</strong>
+      <strong>QUANTITY</strong>
     </div>
     <div>
       <img src="phottos/Salamandra.PNG" alt="salamandra in nature" width="50px">
