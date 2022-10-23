@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Metal+Mania&display=swap');
+
 @font-face {
   font-family: "Booter - Zero Zero";
   src: url("./font-family/Booter - Zero Zero.woff") format("woff"),
@@ -66,4 +68,55 @@ html body {
 
 .band-name-large {
   font-size: 9em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.about-band-image {
+  float: left;
+  height: 280px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.main-footer {
+  background-color: #56CCF2;
+  color: aliceblue;
+  padding: .30em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0 .2em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
 }
