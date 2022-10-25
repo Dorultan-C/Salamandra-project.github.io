@@ -23,6 +23,17 @@ function ready(){
     var button = addToCartButtons[i]
     button.addEventListener('click', addToCardClicked)
   }
+
+  document.getElementsByClassName('btn-purchase')[0].addEventListener('click',purchaseClicked)
+}
+
+function purchaseClicked() {
+  alert('Thank you for your purchase.')
+  var cartItems = document.getElementsByClassName('cart-items')[0]
+  while (cartItems.hasChildNodes()) {
+    cartItems.removeChild(cartItems.firstChild)
+  }
+  updateCartTotal()
 }
 
 function removeCartItem(event) {
@@ -75,6 +86,7 @@ function addItemToCart(title, price, imageSrc) {
   cartItems.append(cartRow)
   cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
   cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+ 
 }
 
 
